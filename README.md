@@ -8,6 +8,10 @@ Iron man is the best Avenger!
 
 This extension is for learning purposes of how vscode extensions are built, feel free to download it and use its commands.
 
+## Usage
+
+Just open the command pallet with ctrl+shift+p and execute Hello World or for powerfull developers execute IronMan!!!
+
 ## Contributing
 
 If you have anything to suggest please feel free to open an issue or PR
