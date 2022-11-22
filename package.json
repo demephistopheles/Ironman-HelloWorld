@@ -1,0 +1,46 @@
+{
+	"name": "demephistopheles-HelloWorld",
+	"displayName": "demephistopheles",
+	"description": "Iron man is the best! this is a vscode learning project of hello world!",
+	"version": "0.0.1",
+	"publisher": "demephistopheles",
+	"license": "MIT",
+	"galleryBanner": {
+		"color": "#314591"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+    "activationEvents": ["onStartupFinished"],
+    "main": "./extension.js",
+    "contributes": {
+		"commands": [
+			{
+				"command": "extension.helloWorld",
+				"title": "Hello World"
+			},
+			{
+				"command": "extension.helloIronMan",
+				"title": "IronMan!!!"
+			}
+		]
+	},
+	"keywords": [
+		"HelloWorld",
+		"demephistopheles",
+		"IronMan"
+	],
+	"icon": "icon.png",
+	"bugs": {
+		"url": "https://github.com/demephistopheles/Ironman-HelloWorld/issues",
+		"email": "hello@demephistopheles.com"
+	},
+	"homepage": "https://github.com/demephistopheles/Ironman-HelloWorld",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/demephistopheles/Ironman-HelloWorld"
+	}
+}
